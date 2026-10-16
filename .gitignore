@@ -1,0 +1,33 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+config/gemini_config.php
+
+# Student uploads and private data
+uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+
+# Database exports and backups
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary password testing scripts
+/reset_test_password.php
+/verify_password.php
+.gitignore~
